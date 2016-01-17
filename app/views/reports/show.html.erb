@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<%= link_to(reports_path) do %>
+	<button class="btn btn-primary	">Back</button>
+<% end %>
+
+<article class="showReport centerText">
+	
+	<h1>  
+	  <%= @report.title %>
+	</h1>
+
+	<p>
+	  <strong>Description:</strong>
+	  <%= @report.description %>
+	</p>
+	
+	<% if user_signed_in? %>
+	<%= link_to 'Edit', edit_report_path(@report) %> |
+	<% end %>
+</article>
+
+

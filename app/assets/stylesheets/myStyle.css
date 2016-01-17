@@ -1,0 +1,139 @@
+body {
+ background: #FFF8DC !important;
+}
+
+a {
+	color: #000 !important;
+	text-decoration: none !important;
+}
+
+a:hover {
+	background: none !important;
+	color: blue !important;
+}
+
+h4 {
+	margin-top: 1px !important;
+}
+
+.deleteBtn {
+	width: 22px;
+	border-radius: 20px;
+	background-color:  red !important;
+	padding-bottom: 3px;
+	box-shadow: 1px 1px 5px #000;
+	margin: 0px;
+	
+}
+
+.deleteBtnContainerRigth {
+	width: 22px;
+	margin-left: auto;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.navbar-jnc {
+	
+	background-color:  #007fff !important;
+}
+
+.brand {
+	color: white;
+}
+
+.brand:hover { 
+    color: #FDDF5B;
+}
+
+.userOption {
+	color: white !important;
+}
+
+.userOption:hover { 
+    color: black !important;
+}
+
+.centerContainer1 {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.reports {
+	background: #FFDB58;
+	border: 1px solid #73AD21;
+	border-radius: 10px;
+	box-shadow: 5px 10px 20px #000;
+	opacity: 0.8;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	color: black;
+	padding: 20px;
+}
+
+.reportsContainer {
+	background: #EDECEA;
+	border-radius: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 400px;
+	width: 80%;
+	overflow-y: scroll;
+	margin: auto;
+
+	
+}
+
+.showReport {
+	background: #FFDB58;
+	border: 1px solid #73AD21;
+	border-radius: 10px;
+	box-shadow: 5px 10px 20px #000;
+	opacity: 0.8;
+	margin: auto;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	color: black;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	padding: auto;
+	width: 50%;
+}
+
+.accountAction {
+	background: #FFDB58;
+	border: 1px solid #73AD21;
+	border-radius: 10px;
+	box-shadow: 5px 10px 20px #000;
+	opacity: 0.8;
+	margin: auto;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	color: black;
+	padding: 10px;
+	width: 35%;
+	text-align: center;
+}
+
+.bodyContainer {
+	height: 90%;
+	padding-top: 1% !important;
+}
+
+.well {
+	background: inherit !important;
+	border: none !important;
+}
+
+.navbar {
+	margin-bottom: 0px !important;
+}
+
+.indentText {
+	margin-left: 15px;
+}
